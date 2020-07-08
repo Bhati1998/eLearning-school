@@ -1,0 +1,283 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* Start Header Section CSS */
+/* Start TopNav CSS */
+#header-section{
+    height: 600px;
+    background-color: #F0FFF0;
+}
+.navbar-brand img{
+    height:80px;
+    width: 200px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+    font-weight: 500;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #000;
+}
+.bg-signin{
+    background-color: #21B573;
+    color:#fff!important;
+    border-radius: 33px;
+    font-weight: 400!important;
+    display: inline-block;
+}
+/* End TopNav CSS */
+
+/*Start Banner CSS*/
+.banner-content{
+    padding-left: 30px;
+}
+.banner-content small{
+    font-size: 16px;
+    color: red;
+}
+.banner-content h1{
+    font-style: normal;
+    font-weight: bold;
+    color: #000;
+    font-size: 48px;
+    line-height: 70px;
+}
+.banner-content p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 36px;
+    color: #6C6B6B;
+}
+.banner-text-style{
+    color:#21B573;
+}
+.custom-btn{
+    padding: 8px 24px;
+    background: #21B573;
+    border-radius: 33px;
+    color:#fff;
+    border: none;
+}
+/*End header section CSS*/
+/*Start Student section CSS*/
+#student-section{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.icon-resize{
+    height: 80px;
+    width:80px;
+    margin: 40px auto 10px;
+}
+.card{
+    border: none;
+    background: #F8FFFB;
+    border-radius: 10px;
+}
+.card:hover{
+    background: #fff;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+.card-text-style h3{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #413960;
+}
+.card-text-style p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #585859;
+}
+/* End Student Section CSS*/
+
+/* Start Online class Section CSS */
+#online-class{
+    margin-bottom: 100px;
+}
+.section-title{
+    text-align: center;
+    margin: 80px auto;
+}
+.section-title h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    color: #413960;
+}
+.bg-color{
+    background-color: #fff;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+.card-img, .card-img-top {
+    padding: 20px;
+}
+.card-footer {
+    background-color: #fff; 
+    border-top: none;
+}
+.date-time img{
+    height: 24px;
+    width: 24px;
+    margin-right: 5px;
+}
+.total-seat img{
+    height: 24px;
+    width: 24px;
+    margin-right: 5px;
+}
+.card-footer p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #585859;
+    margin-top: 2px;
+}
+/* End Online class Section CSS */
+
+/* Start Testimonial Section CSS */
+#testimonial-section{
+    margin-bottom: 80px;
+}
+.carousel-item img{
+    height: 120px;
+    width: 120px;
+    display: inline-block;
+    margin: 0px auto 10px;
+}
+
+.testimonial-content{
+    max-width: 500px;
+    margin: 0 auto;
+}
+.testimonial-content p{
+    padding-bottom: 40px;
+}
+
+.carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    background-color: #ddd;
+    border-radius: 10px;
+}
+.carousel-indicators .active {
+    opacity: 1;
+    background-color: #21B573;
+}
+/* End Testimonial Section CSS */
+
+/* Start Footer Section CSS */
+#footer-section{
+    background-color: #282531;
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-content p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+}
+.footer-content h4{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+}
+.footer-content ul{
+   padding: 0px;
+}
+.footer-content li{
+    list-style: none;
+}
+.footer-content ul li a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #fff;
+}
+.copy-right{
+    max-width: 500px;
+    margin: 20px auto 0px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.copy-right p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    #header-section{
+        height: 850px;
+    }
+    .margin-top{
+        margin-top: 33px;
+    }
+    .card{
+        margin-bottom: 10px;
+    }
+ }
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    #header-section{
+        height: 800px;
+    }
+    .margin-top{
+        margin-top: 33px;
+    }
+    .card{
+        margin-bottom: 10px;
+    }
+    .card-deck {
+        display: flex;
+        flex-flow: row wrap; 
+       
+      }
+      .card-deck .card {
+        display: block;
+        flex-basis: 50%; /* change this value for each breakpoint*/
+        margin-bottom: 30px;
+      }
+   
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    #header-section{
+        height: 700px;
+    }
+  
+    .card{
+        margin-bottom: 10px;
+    }
+
+    .card-deck {
+        display: flex;
+        flex-flow: row wrap; 
+      }
+      .card-deck .card {
+        display: block;
+        flex-basis: 33%; /* change this value for each breakpoint*/
+        margin-bottom: 30px;
+      }
+
+   
+ }
+
