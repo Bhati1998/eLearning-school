@@ -215,9 +215,10 @@ body{
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    
 }
+/* End Footer Section CSS */
 
+/* Responsive design css */
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
     #header-section{
@@ -230,9 +231,6 @@ body{
         margin-bottom: 10px;
     }
  }
-
-
-
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) { 
@@ -252,10 +250,9 @@ body{
       }
       .card-deck .card {
         display: block;
-        flex-basis: 50%; /* change this value for each breakpoint*/
+        flex-basis: 50%; 
         margin-bottom: 30px;
       }
-   
  }
 
 /* Medium devices (tablets, 768px and up) */
@@ -263,21 +260,14 @@ body{
     #header-section{
         height: 700px;
     }
-  
     .card{
         margin-bottom: 10px;
     }
-
-    .card-deck {
-        display: flex;
-        flex-flow: row wrap; 
-      }
       .card-deck .card {
-        display: block;
-        flex-basis: 33%; /* change this value for each breakpoint*/
+        -ms-flex: 0 0 45%;
+        flex: 0 0 45%;
         margin-bottom: 30px;
       }
-
-   
  }
 
+/* End */
